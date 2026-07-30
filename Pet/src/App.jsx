@@ -1,13 +1,15 @@
 import { useState } from 'react'
 import './App.css'
+import Nav from './Component/Nav'
+import Menu from './Component/Menu/Menu'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-     <h1>hii</h1>
-     <h2>hello</h2>
+     <Nav/>
+     <Menu/>
     </>
   )
 }
