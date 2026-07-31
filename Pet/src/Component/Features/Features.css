@@ -1,0 +1,44 @@
+.features {
+  max-width: 1200px;
+  margin: 30px auto;
+  padding: 20px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+}
+
+.feature-card {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.feature-icon {
+  font-size: 28px;
+  color: #118c4f;
+}
+
+.feature-text h4 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #222;
+  margin-bottom: 4px;
+}
+
+.feature-text p {
+  font-size: 13px;
+  color: #777;
+}
+
+@media (max-width: 768px) {
+  .features {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .feature-card {
+    width: 100%;
+    justify-content: flex-start;
+  }
+}
