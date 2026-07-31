@@ -7,7 +7,7 @@ function Hero() {
     <section className="hero">
       <div className="hero-content">
         <h1>
-          Happy Pets,
+          Happy Pets ,
           <br />
           Happy Lives
         </h1>
@@ -18,7 +18,7 @@ function Hero() {
           furry friends
         </p>
 
-        <button className="hero-btn">Shop Now</button>
+        <button className="hero-btn">Shop Now </button>
       </div>
 
       <div className="hero-image">
