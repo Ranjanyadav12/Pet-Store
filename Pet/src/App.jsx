@@ -4,6 +4,7 @@ import Nav from './Component/Nav'
 import Menu from './Component/Menu/Menu'
 import Hero from './Component/Hero/Hero'
 import Features from './Component/Features/Features'
+import ShopByPet from './Component/Shop by pet/Shopbypet'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -14,6 +15,7 @@ function App() {
      <Menu/>
      <Hero/>
      <Features/>
+     <ShopByPet/>
     </>
   )
 }
